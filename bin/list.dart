@@ -8,7 +8,7 @@ void main() {
   print(angka);
   print(nama);
 
-  //menambahkan data ke dalam list
+  //menambahkan data ke dalam list menggunkan function add
   List<String> organ = [];
   organ.add("kaki"); //index 0
   organ.add("tangan"); //index 1
