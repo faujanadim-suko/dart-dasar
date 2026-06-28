@@ -19,6 +19,10 @@ void main() {
   //membuat mesin cetak (kombinasi void/nonvoid)
   int hasilHitung = hitungTotal(200000, 12);
   cetakData("jaket", hasilHitung);
+
+  //arrow syntax
+  int kuadrat = kuadratSingkat(9);
+  print(kuadrat);
 }
 
 //function positional parameter
@@ -63,9 +67,13 @@ void cetakData(String namaBarang, int totalBayar) {
 ========STRUK PEMBELIAN========
 ===============================
     Barang : $namaBarang
-    Total  : Rp. $totalBayar
+    Total  : Rp.$totalBayar
 ===============================
 == TERIMA KASIH SUDAH MEMBELI==
 ===============================
 """);
 }
+
+//arrow syntax (=>)
+//arroe syntax
+int kuadratSingkat(int x) => x * x;
